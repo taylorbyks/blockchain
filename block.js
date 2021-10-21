@@ -8,7 +8,7 @@ class Block {
     this.precedingHash = precedingHash
     this.nonce = 0
     this.hash = this.computeHash()
-    this.proofOfWork(5)
+    this.proofOfWork(2)
   }
 
   computeHash() {
